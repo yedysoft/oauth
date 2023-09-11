@@ -1,6 +1,6 @@
 package com.yedy.oauth.repositories;
 
-import com.yedy.muk.entitys.BaseEntity;
+import com.yedy.oauth.entitys.BaseEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 

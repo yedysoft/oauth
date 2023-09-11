@@ -1,6 +1,6 @@
 package com.yedy.oauth.services.db;
 
-import com.yedy.muk.entitys.BaseEntity;
+import com.yedy.oauth.entitys.BaseEntity;
 
 import java.util.List;
 import java.util.UUID;

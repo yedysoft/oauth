@@ -1,6 +1,6 @@
 package com.yedy.oauth.entitys;
 
-import com.yedy.muk.enums.Gender;
+import com.yedy.oauth.enums.Gender;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

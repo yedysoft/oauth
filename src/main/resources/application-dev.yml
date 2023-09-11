@@ -1,0 +1,18 @@
+# Database
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/muk
+    username: postgres
+    password: 123
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            redirect-uri: http://localhost:8080/login/oauth2/code/google
+
+# Yedy
+yedy:
+  muk:
+    spotify:
+      redirect-uri: http://localhost:8080/media/auth

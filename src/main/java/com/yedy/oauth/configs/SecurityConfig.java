@@ -1,6 +1,6 @@
 package com.yedy.oauth.configs;
 
--import com.yedy.oauth.utils.CustomAuthanticationManager;
+import com.yedy.oauth.utils.CustomAuthanticationManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

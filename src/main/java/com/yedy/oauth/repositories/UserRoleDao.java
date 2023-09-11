@@ -1,7 +1,7 @@
 package com.yedy.oauth.repositories;
 
-import com.yedy.muk.entitys.User;
-import com.yedy.muk.entitys.UserRole;
+import com.yedy.oauth.entitys.User;
+import com.yedy.oauth.entitys.UserRole;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

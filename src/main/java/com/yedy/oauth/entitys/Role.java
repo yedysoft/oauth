@@ -1,6 +1,6 @@
 package com.yedy.oauth.entitys;
 
-import com.yedy.muk.enums.Roles;
+import com.yedy.oauth.enums.Roles;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

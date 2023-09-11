@@ -1,2 +1,26 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: false
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
 server:
   port: 8001
+
+yedy:
+  token:
+    algorithm: AES/CBC/PKCS5Padding
+    secret-key: yedymuk123456789 # Karakter uzunluğu 16, 24 yada 32 karakter olmalıdır.
+    admin-expiration:
+      time: 30
+      type: minutes
+    user-expiration:
+      time: 1
+      type: hours

@@ -1,8 +1,8 @@
 package com.yedy.oauth.servicesimpl.db;
 
-import com.yedy.muk.entitys.BaseEntity;
-import com.yedy.muk.repositories.BaseRepository;
-import com.yedy.muk.services.db.BaseService;
+import com.yedy.oauth.entitys.BaseEntity;
+import com.yedy.oauth.repositories.BaseRepository;
+import com.yedy.oauth.services.db.BaseService;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;

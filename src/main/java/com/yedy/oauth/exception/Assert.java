@@ -1,7 +1,7 @@
 package com.yedy.oauth.exception;
 
-import com.yedy.muk.consts.ErrorMessages;
-import com.yedy.muk.entitys.BaseEntity;
+import com.yedy.oauth.consts.ErrorMessages;
+import com.yedy.oauth.entitys.BaseEntity;
 
 public abstract class Assert {
     public static void notNull(Object object, String message) {

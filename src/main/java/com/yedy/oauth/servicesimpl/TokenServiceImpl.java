@@ -1,14 +1,14 @@
 package com.yedy.oauth.servicesimpl;
 
-import com.yedy.muk.configs.yedy.TokenConfig;
-import com.yedy.muk.consts.ErrorMessages;
-import com.yedy.muk.dtos.YedyToken;
-import com.yedy.muk.enums.Roles;
-import com.yedy.muk.exception.Assert;
-import com.yedy.muk.exception.YedyException;
-import com.yedy.muk.services.HelperService;
-import com.yedy.muk.services.TokenService;
-import com.yedy.muk.services.db.UserRoleService;
+import com.yedy.oauth.configs.yedy.TokenConfig;
+import com.yedy.oauth.consts.ErrorMessages;
+import com.yedy.oauth.dtos.YedyToken;
+import com.yedy.oauth.enums.Roles;
+import com.yedy.oauth.exception.Assert;
+import com.yedy.oauth.exception.YedyException;
+import com.yedy.oauth.services.HelperService;
+import com.yedy.oauth.services.TokenService;
+import com.yedy.oauth.services.db.UserRoleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

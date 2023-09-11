@@ -1,6 +1,6 @@
 package com.yedy.oauth.entitys;
 
-import com.yedy.muk.consts.UserContext;
+import com.yedy.oauth.consts.UserContext;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
